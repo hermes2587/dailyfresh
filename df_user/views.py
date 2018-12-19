@@ -88,3 +88,6 @@ def site(request):
         user.uphone = request.POST.get("uphone")
         user.uyoubian = request.POST.get("uyoubian")
     return render(request,"df_user/user_center_site.html", {"user": user})
+
+
+
