@@ -20,5 +20,6 @@ from django.conf.urls import include
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^user/', include('df_user.urls'))
+    url(r'^user/', include('df_user.urls')),
+    url(r'^tinymce/', include('tinymce.urls')),
 ]
